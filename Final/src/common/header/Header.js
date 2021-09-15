@@ -156,7 +156,6 @@ class Header extends Component {
                     registrationSuccess: true
                    
                 });
-                console.log('eventlistener registration hit')
             }
         });
     }
@@ -319,7 +318,7 @@ class Header extends Component {
                                 </FormHelperText>
                             </FormControl>
                             <br /><br />
-                            {console.log('registration success status:',this.state.registrationSuccess)}
+                    
                             {this.state.registrationSuccess === true &&
 
                                 <FormControl>
